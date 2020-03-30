@@ -40,12 +40,12 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 ### 2. Within country heterogeneity
 ### France
 -	**Daily COVID cases for France, detailed by region/department** 
-  - [Source](https://github.com/opencovid19-fr/data/blob/master/README.en.md)
-  - Content: cas_confirmes, deces, reanimation, hospitalises, gueris, depistes.
+    - [Source](https://github.com/opencovid19-fr/data/blob/master/README.en.md)
+    - Content: cas_confirmes, deces, reanimation, hospitalises, gueris, depistes.
   
 -	**Daily French public data, detailed by nation/regional/department**
-  - [Source](https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=covid_hospit.hosp&s=2020-03-26&t=a01&view=map2) 
-  - Content: number of cases confirmed, number of hospitalizations, number of deaths and number of admissions “en reanimation”, number of individuals recovering at home, number of hospitals having declared at least one positive case since 1st March.
+    - [Source](https://geodes.santepubliquefrance.fr/#c=indicator&f=0&i=covid_hospit.hosp&s=2020-03-26&t=a01&view=map2) 
+    - Content: number of cases confirmed, number of hospitalizations, number of deaths and number of admissions “en reanimation”, number of individuals recovering at home, number of hospitals having declared at least one positive case since 1st March.
 
 -	**Medical causes and deaths**
   - [Source](https://www.cepidc.inserm.fr/)  
