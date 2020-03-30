@@ -5,7 +5,7 @@ Run the script to download several datasets on COVID and economics on your local
 ## Datasets in collection
 
 ### 1. Daily COVID cases and deaths by country from [Johns Hopkins](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) 
-This dataset contains daily updated information on confirmed cases, deaths and recovered by country/region.
+Daily updated information on confirmed cases, deaths and recovered by country/region.
 
 ### 2. Population by country from [United Nations](https://population.un.org/wpp/Download/Standard/CSV/) 
 Population, country area and population density by country as of Jan 1, 2019.
