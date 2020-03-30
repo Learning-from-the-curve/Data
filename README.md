@@ -48,79 +48,79 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - Content: number of cases confirmed, number of hospitalizations, number of deaths and number of admissions “en reanimation”, number of individuals recovering at home, number of hospitals having declared at least one positive case since 1st March.
 
 -	**Medical causes and deaths**
-  - [Source](https://www.cepidc.inserm.fr/)  
-  - Content: need to apply for access?
+    - [Source](https://www.cepidc.inserm.fr/)  
+    - Content: need to apply for access?
 
 </br>
 
 ### Belgium
 - **Population statistics at city level** 
-  - [Source](https://statbel.fgov.be/en/themes/population/structure-population)
-  - Content: several datasets on number of inhabitants by NIS (city-level), births and fertility, mortality, life excpectancy and causes of death, ...
+    - [Source](https://statbel.fgov.be/en/themes/population/structure-population)
+    - Content: several datasets on number of inhabitants by NIS (city-level), births and fertility, mortality, life excpectancy and causes of death, ...
 
 </br>
 
 ### Netherlands
 - **Weekly deaths by gender and age**
-  - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
-  - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75)
+    - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
+    - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75)
  
 </br>
  
 ### Italy
 - **Daily COVID cases for Italy, detailed by region**
-  - [Source](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni)
-  - Content: daily updates by region: recovered with symptoms, intensive care, total hospitalized, domestic isolation, tested positive, deaths, ...
+    - [Source](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni)
+    - Content: daily updates by region: recovered with symptoms, intensive care, total hospitalized, domestic isolation, tested positive, deaths, ...
 
 </br>
 
 ### 3. Life expectancy
 -	**Global mortality tables by country**
-  - [Source](https://population.un.org/wpp/Download/Standard/CSV/)
-  - File: WPP2019_Life_Table_Medium
-  - Content: Abridged life tables up to age 100 by sex and both sexes combined providing a set of values showing the 
+    - [Source](https://population.un.org/wpp/Download/Standard/CSV/)
+    - File: WPP2019_Life_Table_Medium
+    - Content: Abridged life tables up to age 100 by sex and both sexes combined providing a set of values showing the 
     mortality experience of a hypothetical group of infants born at the same time and subject throughout their lifetime 
     to the specific mortality rates of a given period, from 1950-1955 to 2095-2100.
     
 -	**Global period by country**
-  - [Source](https://population.un.org/wpp/Download/Standard/CSV/)
-  - File: WPP2019_Period_Indicators_Medium
-  - Content: Several indicators in 5-year periods, from 1950-1955 to 2095-2100. 
+    - [Source](https://population.un.org/wpp/Download/Standard/CSV/)
+    - File: WPP2019_Period_Indicators_Medium
+    - Content: Several indicators in 5-year periods, from 1950-1955 to 2095-2100. 
     Including fertility, birth rates, life expectancy, ...
     
 -	**Belgian general mortality rates**
-  - [Source](https://epistat.wiv-isp.be/momo/)
-  - Content: ????
-  - [Source](https://statbel.fgov.be/en/open-data/number-deaths-day)
-  - Content: number of deaths per day up to 2018
+    - [Source](https://epistat.wiv-isp.be/momo/)
+    - Content: ????
+    - [Source](https://statbel.fgov.be/en/open-data/number-deaths-day)
+    - Content: number of deaths per day up to 2018
   
 -	**Belgian cause of deaths**
-  - [Source](https://statbel.fgov.be/en/themes/population/mortality-life-expectancy-and-causes-death/causes-death#figures)
-  - Content: yearly deaths by age group and age, by cause of death (up to 2016).
+    - [Source](https://statbel.fgov.be/en/themes/population/mortality-life-expectancy-and-causes-death/causes-death#figures)
+    - Content: yearly deaths by age group and age, by cause of death (up to 2016).
   
 -	**Europe general mortality rates**
-  - [Source](http://www.euromomo.eu)
+    - [Source](http://www.euromomo.eu)
   
 -	**Epidemiological data, China**
-  - [Source](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30119-5/fulltext)
-  - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19
+    - [Source](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30119-5/fulltext)
+    - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19
 
 </br>
 
 ### 4. Humanitarian
 -	**Humanitarian Data Exchange:** More than 1700 Gov Interventions across the world
-  - [Source](https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset) 
-  - Content: Category, Measure, Entry Date, Source.
+    - [Source](https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset)
+    - Content: Category, Measure, Entry Date, Source.
  
 </br>
  
 ### 5. Financial data
 -	**Daily Prices of National Stock indices**
-  - [Source](https://finance.yahoo.com/world-indices/)
-  -	APIs: Quandl, Yahoo Finance, OpenFIGI
+    - [Source](https://finance.yahoo.com/world-indices/)
+    -	APIs: Quandl, Yahoo Finance, OpenFIGI
 
 </br>
 
 ### 6. Behavioral surveys
 - Belgium (University of Antwerp), ongoing
-  - [Source](https://www.tijd.be/dossiers/coronavirus/34-doden-aantal-ziekenhuisopnames-daalt-voor-tweede-dag-op-rij/10216380.html)
+    - [Source](https://www.tijd.be/dossiers/coronavirus/34-doden-aantal-ziekenhuisopnames-daalt-voor-tweede-dag-op-rij/10216380.html)
