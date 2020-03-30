@@ -2,6 +2,9 @@
 Repo with data and/or code for scraping data.
 Run the script to download several datasets on COVID and economics on your local machine. The data calls the latest available data (e.g. daily for COVID cases).
 
+</br>
+</br>
+
 ## Datasets in collection
 
 ### 1. Daily COVID cases and deaths by country from [Johns Hopkins](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) 
