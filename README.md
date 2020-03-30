@@ -35,7 +35,6 @@ Datasets that are used intensely from this list can get bumped to the scripted d
   - [Source](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker), [Download link](https://www.bsg.ox.ac.uk/sites/default/files/OxCGRT_Download_latest_data.xlsx), [Description](https://www.bsg.ox.ac.uk/sites/default/files/2020-03/BSG-WP-2020-031-v2.0.pdf).
   - Citation: Hale, Thomas and Samuel Webster (2020). Oxford COVID-19 Government Response Tracker.
 
-</br>
 
 ### 2. Within country heterogeneity
 ### France
@@ -51,28 +50,24 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - [Source](https://www.cepidc.inserm.fr/)  
     - Content: need to apply for access?
 
-</br>
 
 ### Belgium
 - **Population statistics at city level** 
     - [Source](https://statbel.fgov.be/en/themes/population/structure-population)
     - Content: several datasets on number of inhabitants by NIS (city-level), births and fertility, mortality, life excpectancy and causes of death, ...
 
-</br>
 
 ### Netherlands
 - **Weekly deaths by gender and age**
     - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
     - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75)
  
-</br>
  
 ### Italy
 - **Daily COVID cases for Italy, detailed by region**
     - [Source](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni)
     - Content: daily updates by region: recovered with symptoms, intensive care, total hospitalized, domestic isolation, tested positive, deaths, ...
 
-</br>
 
 ### 3. Life expectancy
 -	**Global mortality tables by country**
@@ -105,21 +100,18 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - [Source](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30119-5/fulltext)
     - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19
 
-</br>
 
 ### 4. Humanitarian
 -	**Humanitarian Data Exchange:** More than 1700 Gov Interventions across the world
     - [Source](https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset)
     - Content: Category, Measure, Entry Date, Source.
  
-</br>
  
 ### 5. Financial data
 -	**Daily Prices of National Stock indices**
     - [Source](https://finance.yahoo.com/world-indices/)
     -	APIs: Quandl, Yahoo Finance, OpenFIGI
 
-</br>
 
 ### 6. Behavioral surveys
 - Belgium (University of Antwerp), ongoing
