@@ -5,7 +5,8 @@ Repo with data sources and/or code for scraping data.
 </br>
 
 ## Datasets in collection
-Run the [script](https://github.com/Learning-from-the-curve/Data/blob/master/Get_data.ipynb) to download several datasets on COVID and economics on your local machine. The data calls the latest available data (e.g. daily for COVID cases).
+Run the [script](https://github.com/Learning-from-the-curve/Data/blob/master/Get_data.ipynb) to download several datasets on COVID and economics on your local machine. 
+The data calls the latest available data (e.g. daily for COVID cases).
 
 ### 1. Daily COVID cases and deaths by country from [Johns Hopkins](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series) 
 Daily updated information on confirmed cases, deaths and recovered by country/region.
