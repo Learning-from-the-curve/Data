@@ -33,7 +33,7 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 ### 1. Policy responses
 - **Oxford COVID-19 Government Response Tracker**
   - [Source](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker), [Download link](https://www.bsg.ox.ac.uk/sites/default/files/OxCGRT_Download_latest_data.xlsx), [Description](https://www.bsg.ox.ac.uk/sites/default/files/2020-03/BSG-WP-2020-031-v2.0.pdf).
-  - Recommended citation: Hale, Thomas and Samuel Webster (2020). Oxford COVID-19 Government Response Tracker.
+  - Citation: Hale, Thomas and Samuel Webster (2020). Oxford COVID-19 Government Response Tracker.
 
 </br>
 
