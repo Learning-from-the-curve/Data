@@ -35,8 +35,10 @@ Datasets that are used intensely from this list can get bumped to the scripted d
   - [Source](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker), [Download link](https://www.bsg.ox.ac.uk/sites/default/files/OxCGRT_Download_latest_data.xlsx), [Description](https://www.bsg.ox.ac.uk/sites/default/files/2020-03/BSG-WP-2020-031-v2.0.pdf).
   - Recommended citation: Hale, Thomas and Samuel Webster (2020). Oxford COVID-19 Government Response Tracker.
 
+</br>
+
 ### 2. Within country heterogeneity
-#### France
+### France
 -	**Daily COVID cases for France, detailed by region/department**
   - [Source](https://github.com/opencovid19-fr/data/blob/master/README.en.md)
   - Content: cas_confirmes, deces, reanimation, hospitalises, gueris, depistes.
