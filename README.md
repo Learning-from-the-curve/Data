@@ -1,6 +1,6 @@
 # Data
 Repo with data and/or code for scraping data.
-Run the script to download several datasets on COVID and economics. The data calls the latest available data (e.g. daily for COVID cases).
+Run the script to download several datasets on COVID and economics on your local machine. The data calls the latest available data (e.g. daily for COVID cases).
 
 ## Datasets in collection
 
