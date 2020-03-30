@@ -28,8 +28,6 @@ Interest rates: short and long term interest rates.
 This document references several data sources on COVID and economics, which might be of use for conributors.
 Sources are grouped by topic and additional sources will be added as the project proceeds. 
 Feel free to suggest additional sources by opening an [issue](https://github.com/Learning-from-the-curve/Data/issues).
-
-You can find the script to download high in demand datasets [here](https://github.com/Learning-from-the-curve/Data/blob/master/Get_data.ipynb).
 Datasets that are used intensely from this list can get bumped to the scripted data, again via reporting an [issue](https://github.com/Learning-from-the-curve/Data/issues).
 
 ### 1. Policy responses
