@@ -53,21 +53,21 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 
 </br>
 
-#### Belgium
+### Belgium
 - **Population statistics at city level** 
   - [Source](https://statbel.fgov.be/en/themes/population/structure-population)
   - Content: several datasets on number of inhabitants by NIS (city-level), births and fertility, mortality, life excpectancy and causes of death, ...
 
 </br>
 
-#### Netherlands
+### Netherlands
 - **Weekly deaths by gender and age**
   - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
   - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75)
  
 </br>
  
-#### Italy
+### Italy
 - **Daily COVID cases for Italy, detailed by region**
   - [Source](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni)
   - Content: daily updates by region: recovered with symptoms, intensive care, total hospitalized, domestic isolation, tested positive, deaths, ...
