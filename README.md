@@ -57,8 +57,8 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - Content: number of cases confirmed, number of hospitalizations, number of deaths and number of admissions “en reanimation”, number of individuals recovering at home, number of hospitals having declared at least one positive case since 1st March.
 
 -	**Medical causes and deaths**
-    - [Source](https://icd.who.int/browse10/2008/fr)  
-    - Content: data on deaths by ICD-10 codes, by department and year, but only up to 2016.
+    - [Source](https://www.cepidc.inserm.fr/causes-medicales-de-deces/interroger-les-donnees-de-mortalite)
+    - Content: data on deaths by [ICD-10 codes](https://icd.who.int/browse10/2008/fr), by department and year, but only up to 2016.
 
 ### Belgium
 - **Population statistics at city level** 
