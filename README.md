@@ -35,6 +35,10 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 - **Oxford COVID-19 Government Response Tracker**
   - [Source](https://www.bsg.ox.ac.uk/research/research-projects/oxford-covid-19-government-response-tracker), [Download link](https://www.bsg.ox.ac.uk/sites/default/files/OxCGRT_Download_latest_data.xlsx), [Description](https://www.bsg.ox.ac.uk/sites/default/files/2020-03/BSG-WP-2020-031-v2.0.pdf).
   - Citation: Hale, Thomas and Samuel Webster (2020). Oxford COVID-19 Government Response Tracker.
+  
+- **Data protection law and the COVID19 outbreak**
+  - [Source](https://lsts.research.vub.be/en/data-protection-law-and-the-covid-19-outbreak)
+  - Content: a list of what different countries in Europe are doing to guarantee appropriate protection of personal data, during a time in which being able to monitor each and every individual is essential to ensure the success of containment measure 
 
 
 ### 2. Within country heterogeneity
@@ -48,9 +52,9 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - Content: number of cases confirmed, number of hospitalizations, number of deaths and number of admissions “en reanimation”, number of individuals recovering at home, number of hospitals having declared at least one positive case since 1st March.
 
 -	**Medical causes and deaths**
-    - [Source](https://www.cepidc.inserm.fr/)  
-    - Content: need to apply for access?
-
+    - [Source](https://icd.who.int/browse10/2008/fr)  
+    - Content: data on deaths by ICD-10 codes, by department and year, but only up to 2016.
+-
 
 ### Belgium
 - **Population statistics at city level** 
