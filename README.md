@@ -1,8 +1,11 @@
 # Data
-Repo with data sources and/or code for scraping data.
+Researchers at [ECARES, ULB](https://ecares.ulb.be) are collecting and centralizing various datasets on COVID19 under the umbrella "Learning from the curve".
 
-</br>
-</br>
+We want to provide the latest data available for research on the intersection between COVID and economics in a broad sense: health economics, environmental economics, political economy, macro, networks etc. Several [research projects](https://github.com/Learning-from-the-curve/Projects) have initialized. We welcome contributors to collaborate on these projects.
+
+Data comes from official providors, such as ECDC, the UN and Eurostat, as well as other organizations and individuals that collect, harmonize and disseminate data on COVID.
+The latest version of several datasets can be obtained by running the Python script in this repo. There are also links to various other datasets on different topics.
+
 
 ## Datasets in collection
 Run the [script](https://github.com/Learning-from-the-curve/Data/blob/master/Get_data.ipynb) to download several datasets on COVID and economics on your local machine. 
@@ -26,12 +29,11 @@ Daily data on hospitalizations by date and province.
 Daily data on mortality by date, age, sex and province.
 Daily data on total number of tests performed.
 
-</br>
-</br>
+
 
 ## Other data sources
 
-This document references several data sources on COVID and economics, which might be of use for conributors.
+This document references several data sources on COVID and economics, which might be of use for contributors.
 Sources are grouped by topic and additional sources will be added as the project proceeds. 
 Feel free to suggest additional sources by opening an [issue](https://github.com/Learning-from-the-curve/Data/issues).
 Datasets that are used intensely from this list can get bumped to the scripted data, again via reporting an [issue](https://github.com/Learning-from-the-curve/Data/issues).
