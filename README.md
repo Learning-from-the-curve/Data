@@ -1,7 +1,7 @@
 # Data
 Researchers at [ECARES, ULB](https://ecares.ulb.be) are collecting and centralizing various datasets on COVID19 under the umbrella "Learning from the curve".
 
-We want to provide the latest data available for research on the intersection between COVID and economics in a broad sense: health economics, environmental economics, political economy, macro, networks etc. Several [research projects](https://github.com/Learning-from-the-curve/Projects) have initialized. We welcome contributors to collaborate on these projects.
+We want to provide the latest data available for research on the intersection between COVID and economics in a broad sense: health economics, environmental economics, political economy, macro, networks etc. Several [research projects](https://github.com/Learning-from-the-curve/Projects) have initialized. We welcome contributors to collaborate on these projects. Feel free to contact the contributors of particular projects.
 
 Data comes from official providors, such as ECDC, the UN and Eurostat, as well as other organizations and individuals that collect, harmonize and disseminate data on COVID.
 The latest version of several datasets can be obtained by running the Python script in this repo. There are also links to various other datasets on different topics.
