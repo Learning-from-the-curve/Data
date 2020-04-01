@@ -3,7 +3,6 @@
 import pandas as pd
 import numpy as np
 import os
-from pandasdmx import Request 
 import eurostat
 from concurrent.futures import ThreadPoolExecutor
 import time
@@ -48,17 +47,34 @@ def data_Ox(url, container):
 
 url_Ox = [['OX_govt_responses', 'https://www.bsg.ox.ac.uk/sites/default/files/OxCGRT_Download_latest_data.xlsx']]
 
+# Define function to get data from Sciensano-Belgium
+def data_Belgium(url, container):
+    ind = 0
+    for i in url:
+        if ind <= len(url):
+            container.append([url[ind][0],pd.read_csv(url[ind][1], index_col = 0, parse_dates = [0], encoding = "ISO-8859-1")])
+        ind += 1
+        
+url_Belgium = [['Confirmed_cases_by_date_age_sex_and_province', 'https://epistat.sciensano.be/Data/COVID19BE_CASES_AGESEX.csv'],
+               ['Confirmed_cases_by_date_and_municipality', 'https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI.csv'],
+               ['Cumulative_number_of_confirmed_cases_by_municipality', 'https://epistat.sciensano.be/Data/COVID19BE_CASES_MUNI_CUM.csv'],
+               ['Hospitalisations_by_date_and_provinces', 'https://epistat.sciensano.be/Data/COVID19BE_HOSP.csv'],
+               ['Mortality_by_date_age_sex_and_province', 'https://epistat.sciensano.be/Data/COVID19BE_MORT.csv'],
+               ['Total_number_of_tests_performed_by_date', 'https://epistat.sciensano.be/Data/COVID19BE_tests.csv']]
+
 # Download all data
 JH  = []
 WPP = []
 EU  = []
 OX  = []
+BE  = []
 
-with ThreadPoolExecutor(max_workers = 4) as e:
+with ThreadPoolExecutor(max_workers = 5) as e:
     e.submit(data_JH(url_JH, JH))
     e.submit(data_JH(url_WPP, WPP))
     e.submit(data_Eurostat(Eurostat_code, EU))
     e.submit(data_Ox(url_Ox, OX))
+    e.submit(data_Belgium(url_Belgium, BE))
 
 # Define function to reshape JH data
 def reshape_JH(JH,JH_reshaped):
@@ -111,7 +127,7 @@ JH_reshaped = []
 JH_reshaped = reshape_JH(JH,JH_reshaped)
 
 # Save all data
-def store_data(path = os.getcwd(), JH_data = True, WPP_data = True, EU_data = True, Ox_data = True):
+def store_data(path = os.getcwd(), JH_data = True, WPP_data = True, EU_data = True, Ox_data = True, BE_data = True):
     os.makedirs(path, exist_ok = True)
     if JH_data:
         ind = 0
@@ -132,6 +148,11 @@ def store_data(path = os.getcwd(), JH_data = True, WPP_data = True, EU_data = Tr
         ind = 0
         for i in OX:
             OX[ind][1].to_csv(path + OX[ind][0] + '.csv', index = False)
+            ind += 1
+    if BE_data:
+        ind = 0
+        for i in BE:
+            BE[ind][1].to_csv(path + BE[ind][0] + '.csv', index = False)
             ind += 1
 
 store_data(os.getcwd() + "/files/")
