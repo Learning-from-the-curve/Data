@@ -43,7 +43,7 @@ Datasets that are used intensely from this list can get bumped to the scripted d
   
 - **Data protection law and the COVID19 outbreak**
   - [Source](https://lsts.research.vub.be/en/data-protection-law-and-the-covid-19-outbreak)
-  - Content: a list of what different countries in Europe are doing to guarantee appropriate protection of personal data, during a time in which being able to monitor each and every individual is essential to ensure the success of containment measure 
+  - Content: a list of what different countries in Europe are doing to guarantee appropriate protection of personal data, during a time in which being able to monitor each and every individual is essential to ensure the success of containment measure. 
 
 
 ### 2. Within country heterogeneity
@@ -59,7 +59,6 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 -	**Medical causes and deaths**
     - [Source](https://icd.who.int/browse10/2008/fr)  
     - Content: data on deaths by ICD-10 codes, by department and year, but only up to 2016.
--
 
 ### Belgium
 - **Population statistics at city level** 
@@ -70,7 +69,7 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 ### Netherlands
 - **Weekly deaths by gender and age**
     - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
-    - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75)
+    - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75).
  
  
 ### Italy
@@ -97,7 +96,7 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - [Source](https://epistat.wiv-isp.be/momo/)
     - Content: ????
     - [Source](https://statbel.fgov.be/en/open-data/number-deaths-day)
-    - Content: number of deaths per day up to 2018
+    - Content: number of deaths per day up to 2018.
   
 -	**Belgian cause of deaths**
     - [Source](https://statbel.fgov.be/en/themes/population/mortality-life-expectancy-and-causes-death/causes-death#figures)
@@ -108,7 +107,7 @@ Datasets that are used intensely from this list can get bumped to the scripted d
   
 -	**Epidemiological data, China**
     - [Source](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30119-5/fulltext)
-    - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19
+    - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19.
 
 
 ### 4. Humanitarian
