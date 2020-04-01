@@ -20,6 +20,11 @@ National accounting identity by EU28 member state: GDP, consumption, investment,
 Unemployment by EU28 member state.
 Interest rates: short and long term interest rates.
 
+### 4. Daily COVID cases for Belgium by municipality from [Epistat](https://epistat.wiv-isp.be/covid/)
+Daily data on confirmed cases by age, sex and province; by date and municipality.
+Daily data on hospitalizations by date and province.
+Daily data on mortality by date, age, sex and province.
+Daily data on total number of tests performed.
 
 </br>
 </br>
