@@ -6,7 +6,7 @@ import os
 import eurostat
 from concurrent.futures import ThreadPoolExecutor
 import time
-from datetime import datetime
+
 
 # Define function to get data from John Hopkins
 start_time = time.time()
