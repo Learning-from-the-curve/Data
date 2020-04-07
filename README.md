@@ -128,4 +128,4 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 - Global (Covid19stop), ongoing
     - [Source](https://www.covid19stop.org/survey)
 - Belgium (University of Antwerp), ongoing
-    - [Source](https://www.tijd.be/dossiers/coronavirus/34-doden-aantal-ziekenhuisopnames-daalt-voor-tweede-dag-op-rij/10216380.html)
+    - [Source](https://www.uantwerpen.be/nl/projecten/corona-studie/)
