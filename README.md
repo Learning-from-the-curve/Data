@@ -49,7 +49,12 @@ Datasets that are used intensely from this list can get bumped to the scripted d
 
 
 ### 2. Within country heterogeneity
-### France
+#### Belgium
+- **Population statistics at city level** 
+    - [Source](https://statbel.fgov.be/en/themes/population/structure-population)
+    - Content: several datasets on number of inhabitants by NIS (city-level), births and fertility, mortality, life excpectancy and causes of death, ...
+
+#### France
 -	**Daily COVID cases for France, detailed by region/department** 
     - [Source](https://github.com/opencovid19-fr/data/blob/master/README.en.md)
     - Content: cas_confirmes, deces, reanimation, hospitalises, gueris, depistes.
@@ -62,23 +67,15 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - [Source](https://www.cepidc.inserm.fr/causes-medicales-de-deces/interroger-les-donnees-de-mortalite)
     - Content: data on deaths by [ICD-10 codes](https://icd.who.int/browse10/2008/fr), by department and year, but only up to 2016.
 
-### Belgium
-- **Population statistics at city level** 
-    - [Source](https://statbel.fgov.be/en/themes/population/structure-population)
-    - Content: several datasets on number of inhabitants by NIS (city-level), births and fertility, mortality, life excpectancy and causes of death, ...
-
-
-### Netherlands
-- **Weekly deaths by gender and age**
-    - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
-    - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75).
- 
- 
-### Italy
+#### Italy
 - **Daily COVID cases for Italy, detailed by region**
     - [Source](https://github.com/pcm-dpc/COVID-19/tree/master/dati-regioni)
     - Content: daily updates by region: recovered with symptoms, intensive care, total hospitalized, domestic isolation, tested positive, deaths, ...
 
+#### Netherlands
+- **Weekly deaths by gender and age**
+    - [Source](https://opendata.cbs.nl/#/CBS/nl/dataset/70895ned/table?dl=35477)
+    - More data [here](https://opendata.cbs.nl/portal.html?_la=nl&_catalog=CBS&tableId=70895ned&_theme=75).
 
 ### 3. Life expectancy
 -	**Global mortality tables by country**
