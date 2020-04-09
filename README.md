@@ -111,21 +111,22 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - [Source](https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(20)30119-5/fulltext)
     - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19.
 
-
-### 4. Humanitarian
+### 4. Economic indicators
+- **Electricity usage**
+    - [Source](https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?  name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=03.04.2020+00:00%7CCET%7CDAY&biddingZone.values=CTY%7C10YIT-GRTN-----B!CTA%7C10YIT-GRTN-----B&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#)
+-	**Daily Prices of National Stock indices**
+    - [Source](https://finance.yahoo.com/world-indices/)
+    -	APIs: Quandl, Yahoo Finance, OpenFIGI
+    
+### 5. Other
 -	**Humanitarian Data Exchange:** More than 1700 Gov Interventions across the world
     - [Source](https://data.humdata.org/dataset/acaps-covid19-government-measures-dataset)
     - Content: Category, Measure, Entry Date, Source.
  
- 
-### 5. Financial data
--	**Daily Prices of National Stock indices**
-    - [Source](https://finance.yahoo.com/world-indices/)
-    -	APIs: Quandl, Yahoo Finance, OpenFIGI
-
-
 ### 6. Behavioral surveys
 - Global (Covid19stop), ongoing
     - [Source](https://www.covid19stop.org/survey)
 - Belgium (University of Antwerp), ongoing
     - [Source](https://www.uantwerpen.be/nl/projecten/corona-studie/)
+    
+    
