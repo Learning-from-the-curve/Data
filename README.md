@@ -109,6 +109,9 @@ Datasets that are used intensely from this list can get bumped to the scripted d
     - Content: Centralised repository of individual-level information on patients with laboratory-confirmed COVID-19.
 
 ### 4. Economic indicators
+- **Fiscal issues (IMF)**
+    - [Source](https://www.imf.org/en/Publications/SPROLLs/covid19-special-notes)
+    
 - **Electricity usage**
     - [Source](https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?  name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=03.04.2020+00:00%7CCET%7CDAY&biddingZone.values=CTY%7C10YIT-GRTN-----B!CTA%7C10YIT-GRTN-----B&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#)
 -	**Daily Prices of National Stock indices**
