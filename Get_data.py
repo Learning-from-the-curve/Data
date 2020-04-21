@@ -7,7 +7,6 @@ import eurostat
 from concurrent.futures import ThreadPoolExecutor
 import time
 
-
 # Define function to get data from John Hopkins
 start_time = time.time()
 
@@ -104,24 +103,32 @@ def reshape_JH(JH,JH_reshaped):
         tmp = tmp.rename(columns = {'Date':'occurrences'})
 
         # Clean index
+        idx = []
         cou = []
+        reg = []
         date = []
         for k in range(len(tmp.index)):
-            cou.append(list(tmp.index[k])[0])
+            idx.append(list(tmp.index[k])[0])
             date.append(list(tmp.index[k])[1])
-
+        
+        # Get country and region identifier
+        for i in range(len(idx)):
+            cou.append(idx[i][0])
+            reg.append(idx[i][1])
+            
         # Finalize dataset
-        tmp['country'] = cou    
+        tmp['country'] = cou  
+        tmp['region'] = reg  
         tmp['date'] = [str(i)+'20' for i in date]
         tmp['date'] = pd.to_datetime(tmp['date'], format='%m%d%Y', errors='coerce')
         tmp = tmp.reset_index(drop=True)
-        tmp = tmp[["country", "date", "occurrences"]]
+        tmp = tmp[["country", "region", "date", "occurrences"]]
 
         # Store output in a new list
         JH_reshaped.append([JH[j][0], tmp])
         
-        # Return
-        return(JH_reshaped)
+    #Return
+    return(JH_reshaped)
 
 JH_reshaped = []
 JH_reshaped = reshape_JH(JH,JH_reshaped)
