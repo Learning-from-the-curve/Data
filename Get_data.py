@@ -159,7 +159,7 @@ def store_data(path = os.getcwd(), JH_data = True, WPP_data = True, EU_data = Tr
     if BE_data:
         ind = 0
         for i in BE:
-            BE[ind][1].to_csv(path + BE[ind][0] + '.csv', index = False)
+            BE[ind][1].to_csv(path + BE[ind][0] + '.csv')
             ind += 1
 
 store_data(os.getcwd() + "/files/")
