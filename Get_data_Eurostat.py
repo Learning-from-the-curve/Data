@@ -7,16 +7,13 @@ Created on Mon May 18 18:33:01 2020
 
 # Import libraries
 # If some package is missing type pip install --namepackage
-import pandas as pd
-import numpy as np
 import os
 import eurostat
 from concurrent.futures import ThreadPoolExecutor
 import time
 
-# Define function to get data from John Hopkins
+# Define timing function
 start_time = time.time()
-
 
 # Define function to get data from Eurostat
 def data_Eurostat(url, container):
@@ -26,21 +23,65 @@ def data_Eurostat(url, container):
             container.append([url[ind][0], eurostat.get_data_df(url[ind][1])])
         ind += 1
 
-Eurostat_code = [['EU_pop', 'demo_r_gind3'], ['EU_gdp', 'nama_10_gdp'], ['EU_cons', 'nama_10_fcs'], ['EU_trade', 'nama_10_exi'], ['EU_short_rate', 'irt_st_a'],
-                ['EU_long_rate', 'irt_lt_gby10_a'], ['EU_unemp', 'une_rt_a'], ['EU_inv', 'nama_10_an6']]            
+# Define Eurostat codes to call
+Eurostat_code = [['Consumer_monthly_data', 'ei_bsco_m'],
+                 ['Consumer_quarterly_data', 'ei_bsco_q'],
+                 ['Industry_monthly_data', 'ei_bsin_m_r2'],
+                 ['Industry_quarterly_data', 'ei_bsin_q_r2'],
+                 ['Construction_monthly_data', 'ei_bsbu_m_r2'],
+                 ['Construction_quarterly_data', 'ei_bsbu_q_r2'],
+                 ['Retail_sale_monthly_data', 'ei_bsrt_m_r2'],
+                 ['Sentiment_indicator_monthly_data', 'ei_bssi_m_r2'],
+                 ['Services_monthly_data', 'ei_bsse_m_r2'],
+                 ['Services_quarterly_data', 'ei_bsse_q_r2'],
+                 ['EU_Business_climate_indicator_monthly_data', 'ei_bsci_m_r2'],
+                 ['Financial_services_monthly_data', 'ei_bsfs_m'],
+                 ['Financial_services_quarterly_data', 'ei_bsfs_q'],
+                 ['Employment_expectation_indicator', 'ei_bsee_m_r2'],
+                 ['Current_account_quarterly_data', 'ei_bpm6ca_q'],
+                 ['Financial_account_quarterly_data', 'ei_bpm6fa_q'],
+                 ['Current_account_monthly_data', 'ei_bpm6ca_m'],
+                 ['Financial_account_monthly_data', 'ei_bpm6fa_m'],
+                 ['International_investment_position_quarterly_data', 'ei_bpm6iip_q'],
+                 ['Harmonized_index_of_consumer_prices_monthly_data', 'ei_cphi_m'],
+                 ['International_trade_monthly_data_EU27', 'ei_eteu27_2020_m'],
+                 ['International_trade_monthly_data_EU28', 'ei_eteu28_m'],
+                 ['Euro_area_monthly_data_EU19', 'ei_etea19_m'],
+                 ['Industry_monthly_data_index', 'ei_isin_m'],
+                 ['Industry_monthly_growth_rates', 'ei_isir_m'],
+                 ['Industry_quarterly_data_index', 'ei_isind_q'],
+                 ['Construction_monthly_data_index', 'ei_isbu_m'],
+                 ['Construction_monthly_growth_rates', 'ei_isbr_m'],
+                 ['Construction_quarterly_data_index', 'ei_isbu_q'],
+                 ['Retail_trade_monthly_data_growth_rates', 'ei_isrr_m'],
+                 ['Retail_trade_quarterly_data_growth_rates', 'ei_isrt_q'],
+                 ['Turnover_in_services_quarterly_data_index', 'ei_isset_q'],
+                 ['Turnover_in_services_quarterly_data_growth_rates', 'ei_isse_q'],
+                 ['Service_producer_prices_quarterly_data_index', 'ei_isppi_q'],
+                 ['Service_producer_prices_quarterly_data_growth_rates', 'ei_isppe_q'],
+                 ['Energy_monthly_data', 'ei_isen_m'],
+                 ['Harmonized_unemployment_monthly_data', 'ei_lmhu_m'],
+                 ['Harmonized_unemployment_rates_monthly_data', 'ei_lmhr_m'],
+                 ['Labour_cost_index_nominal_value_quarterly_data', 'ei_lmlc_q'],
+                 ['Job_vacancy_rate', 'ei_lmjv_q_r2'],
+                 ['Interest_rate_monthly_data', 'ei_mfir_m'],
+                 ['ECU_Euro_exchange_rate_monthly_data', 'ei_mfrt_m'],
+                 ['Effective_exchange_rate_indices_monthly_data', 'ei_mfef_m'],
+                 ['GDP_and_main_components', 'nama_10_gdp'],
+                 ['Main_GDP_aggregates', 'namq_10_gdp'],
+                 ['Final_consumption_aggregates', 'namq_10_fcs'],
+                 ['Exports_and_imports_by_member_states_of_the_EU_third_countries', 'namq_10_exi'],
+                 ['Gross_value_added_and_income_by_industry', 'namq_10_a10'],
+                 ['Gross_fixed_capital_formation_by_industry', 'namq_10_an6'],
+                 ['Employmentby_industry', 'namq_10_a10_e'],
+                 ['Key_indicators_sectors', 'nasq_10_ki'],
+                 ['Non_financial_transactions', 'nasq_10_nf_tr'],
+                 ['House_price_index_quarterly_data', 'ei_hppi_q'],
+                 ['Area_by_NUTS3', 'reg_area3']]            
 
 # Download all data
-JH  = []
-WPP = []
 EU  = []
-OX  = []
-BE  = []
-
-with ThreadPoolExecutor(max_workers = 5) as e:
-    e.submit(data_Eurostat(Eurostat_code, EU))
-
-
-
+data_Eurostat(Eurostat_code, EU)
 
 # Save all data
 def store_data(path = os.getcwd(), EU_data = True):
@@ -51,6 +92,6 @@ def store_data(path = os.getcwd(), EU_data = True):
             EU[ind][1].to_csv(path + EU[ind][0] + '.csv', index = False)
             ind += 1
 
-store_data(os.getcwd() + "/files/")
+store_data(os.getcwd() + "/Eurostat_data/")
 end_time = time.time()
 print(f"Total time: {end_time - start_time}")
